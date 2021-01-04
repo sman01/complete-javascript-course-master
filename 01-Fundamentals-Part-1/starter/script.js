@@ -1,4 +1,8 @@
 /*
+
+Refer the pdf attached by the name all-coding-challenges in the outermost folder
+
+
     Challenge 1
 
 Case1
@@ -43,7 +47,8 @@ if (avgDolhphin > avgKoala && avgDolhphin > 99) {
 }
 
     Challenge 4
-*/
-const bill = 430
+
+const bill = 275
 tip = bill > 49 && bill < 301 ? bill * 0.15 : bill * 0.2
 console.log(`The bill was ${bill}, the tip was ${tip}, and the total value is ${bill + tip}`)
+*/
