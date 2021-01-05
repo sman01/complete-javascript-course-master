@@ -1,10 +1,12 @@
 'use strict';
 const calcAverage = (n1, n2, n3) => (n1 + n2 + n3) / 3;
 function checkWinner(avgDolphins, avgKoalas) {
-    if (avgDolphins > avgKoalas) {
+    if (avgDolphins > 2 * avgKoalas) {
         console.log(`Dolphins win (${avgDolphins} vs ${avgKoalas})`);
-    } else {
+    } else if (avgKoalas > 2 * avgDolphins) {
         console.log(`Koalas win (${avgKoalas} vs ${avgDolphins})`);
+    } else {
+        console.log(`LMAO`);
     }
 }
 let avgDolphins = calcAverage(85, 54, 41);
