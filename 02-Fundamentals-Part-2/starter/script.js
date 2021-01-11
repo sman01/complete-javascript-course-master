@@ -18,9 +18,6 @@ checkWinner(avgDolphins, avgKoalas);
 // Data 2: Dolphins score 85, 54 and 41. Koalas score 23, 34 and 27
 
     Challenge 2
-*/
-
-
 function calcTip(bills) {
     for (let i = 0; i < bills.length; i++) {
         if (bills[i] > 49 && bills[i] < 301) {
@@ -39,3 +36,4 @@ var total = [];
 var bills = [125, 555, 44];
 console.log(bills)
 console.log(calcTip(bills));
+*/
