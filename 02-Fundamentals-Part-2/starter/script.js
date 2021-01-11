@@ -19,3 +19,23 @@ checkWinner(avgDolphins, avgKoalas);
 
     Challenge 2
 */
+
+
+function calcTip(bills) {
+    for (let i = 0; i < bills.length; i++) {
+        if (bills[i] > 49 && bills[i] < 301) {
+            tip = 0.15 * bills[i];
+        } else {
+            tip = 0.2 * bills[i];
+        }
+        total.push(tip + bills[i]);
+        tips.push(tip);
+    }
+    return (total)
+}
+var tip;
+var tips = [];
+var total = [];
+var bills = [125, 555, 44];
+console.log(bills)
+console.log(calcTip(bills));
