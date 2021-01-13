@@ -60,4 +60,33 @@ const john = {
     },
 };
 console.log(`${john.BMI() > mark.BMI() ? `John's BMI (${john.BMI()})` : `Mark's BMI (${mark.BMI()})`} is greater than ${john.BMI() < mark.BMI() ? `John's BMI (${john.BMI()})` : `Mark's BMI (${mark.BMI()})`}`);
+
+
+    Challenge 4
 */
+function calcTip(bills) {
+    for (let i = 0; i < bills.length; i++) {
+        if (bills[i] > 49 && bills[i] < 301) {
+            tip = 0.15 * bills[i];
+        } else {
+            tip = 0.2 * bills[i];
+        }
+        total.push(tip + bills[i]);
+        tips.push(tip);
+    }
+    return (total)
+}
+function calcAverage(total) {
+    var sum = 0;
+    for (let i = 0; i < total.length; i++) {
+        sum = sum + total[i];
+    }
+    return (sum / total.length)
+}
+var tip;
+var tips = [];
+var total = [];
+var bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+console.log(bills);
+console.log(calcTip(bills));
+console.log(calcAverage(total));
