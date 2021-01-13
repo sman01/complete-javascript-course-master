@@ -36,4 +36,27 @@ var total = [];
 var bills = [125, 555, 44];
 console.log(bills)
 console.log(calcTip(bills));
+
+    Challenge 3
 */
+const mark = {
+    firstName: 'Mark ',
+    lastName: 'Miller',
+    fullName: this.firstName + this.lastName,
+    height: 1.69,
+    weight: 78,
+    BMI: function () {
+        return this.weight / (this.height ** 2);
+    },
+};
+const john = {
+    firstName: 'John ',
+    lastName: 'Smith',
+    fullName: this.firstName + this.lastName,
+    height: 1.95,
+    weight: 92,
+    BMI: function () {
+        return Number(this.weight / (this.height ** 2));
+    },
+};
+console.log(`${john.BMI() > mark.BMI() ? `John's BMI (${john.BMI()})` : `Mark's BMI (${mark.BMI()})`} is greater than ${john.BMI() < mark.BMI() ? `John's BMI (${john.BMI()})` : `Mark's BMI (${mark.BMI()})`}`);
