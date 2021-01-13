@@ -38,7 +38,7 @@ console.log(bills)
 console.log(calcTip(bills));
 
     Challenge 3
-*/
+
 const mark = {
     firstName: 'Mark ',
     lastName: 'Miller',
@@ -60,3 +60,4 @@ const john = {
     },
 };
 console.log(`${john.BMI() > mark.BMI() ? `John's BMI (${john.BMI()})` : `Mark's BMI (${mark.BMI()})`} is greater than ${john.BMI() < mark.BMI() ? `John's BMI (${john.BMI()})` : `Mark's BMI (${mark.BMI()})`}`);
+*/
