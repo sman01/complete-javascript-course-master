@@ -2,3 +2,4 @@
 "use strict";
 
 const c = 243;
+console.log("lmao");
